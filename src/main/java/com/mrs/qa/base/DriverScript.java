@@ -30,6 +30,7 @@ public class DriverScript {
 				prop.load(fis);
 				System.out.println(System.getProperty("user.dir"));
 				System.out.println(System.getProperty("user.dir"));
+				System.out.println(System.getProperty("user.dir"));
 			}
 			catch(Exception e)
 			{
