@@ -20,8 +20,7 @@ public class DriverScript {
 	String fis;
 
 	public DriverScript()  {
-		//test
-		//test 2
+
 			try
 			{
 				prop = new Properties();
@@ -30,10 +29,11 @@ public class DriverScript {
 				FileInputStream fis = new FileInputStream(src);
 				prop.load(fis);
 				System.out.println(System.getProperty("user.dir"));
-			
+				System.out.println(System.getProperty("user.dir"));
 			}
 			catch(Exception e)
 			{
+				System.out.println("Exception message is "+e);
 				System.out.println("Exception message is "+e);
 			}
 		}
